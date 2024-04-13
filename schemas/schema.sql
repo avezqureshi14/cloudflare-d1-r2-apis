@@ -1,0 +1,7 @@
+CREATE TABLE users (
+    user_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username VARCHAR(255) NOT NULL,
+    display_name VARCHAR(255) NOT NULL,
+    media_url VARCHAR(255) NOT NULL,
+    title VARCHAR(255) NOT NULL
+)
